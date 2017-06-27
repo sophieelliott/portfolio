@@ -15,7 +15,7 @@ h1 {
 
 p  {
     color: green;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 div {
@@ -25,5 +25,9 @@ div {
 }
 
 #list1 {
+    display: none;
+}
+
+#pix {
     display: none;
 }
