@@ -14,16 +14,16 @@ h1 {
 }
 
 p  {
-    color: black;
+    color: green;
     font-size: 25px;
-}
-
-#list1 {
-    display: none;
 }
 
 div {
     font-family: verdana;
-    color: green;
+    color: black;
     font-size: 20px;
+}
+
+#list1 {
+    display: none;
 }
