@@ -6,13 +6,21 @@
   </head>
 
   <body>
-    <h1> Welcome to my page! </h1>
-    <p1>Some things about me:
-      <ul>
+    <h1> Welcome to my portfolio! </h1>
+    <div>
+      <p id="demo" onclick="myFunction()"><i>Click here to learn some things about me:</i></p>
+      <ul id="list1">
         <li>I'm a junior at Washington University in St. Louis studying linguistics, computer science, and Arabic</li>
-        <li>I love running, dogs, desserts, card games, and being home</li>
+        <li>I love running, dogs, desserts, card games, and fighting for equality</li>
         <li>I'm looking forward to seeing all the great things you all learn this summer!</li>
       </ul>
-    </p1>
+    </div>
+    
+    <script>
+      function myFunction() {
+        document.getElementById("list1").classList.toggle("show");
+      }
+  </script>
+    
   </body>
 </html>
