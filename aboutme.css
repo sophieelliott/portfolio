@@ -30,4 +30,5 @@ div {
 
 #pix {
     display: none;
+    list-style-type: none;
 }
