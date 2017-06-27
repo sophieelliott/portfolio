@@ -7,8 +7,10 @@ body {
 }
 
 h1 {
+    font-family: verdana;
     color: white;
     text-align: center;
+    font-size: 30px;
 }
 
 p  {
@@ -16,12 +18,12 @@ p  {
     font-size: 25px;
 }
 
-"list1" {
+#list1 {
     display: none;
 }
 
 div {
     font-family: verdana;
     color: green;
-    font-size: 30px;
+    font-size: 20px;
 }
