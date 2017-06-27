@@ -16,6 +16,10 @@ p  {
     font-size: 25px;
 }
 
+ul  {
+    display: none;
+}
+
 div {
     font-family: verdana;
     color: green;
