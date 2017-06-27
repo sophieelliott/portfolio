@@ -7,21 +7,33 @@
   </head>
 
   <body>
-    <h1> Welcome to my portfolio! </h1>
+    <h1> Welcome to my portfolio! </h1><br>
     <div>
       <p id="demo" onclick="myFunction()"><i>Click here to learn some things about me:</i></p>
       <ul id="list1">
         <li>I'm a junior at Washington University in St. Louis studying linguistics, computer science, and Arabic</li>
+        <li>I grew up in New York City and went to Hunter College Elementary and High School</li>
         <li>I love running, dogs, desserts, card games, and fighting for intersectional equality</li>
-        <li>I'm looking forward to seeing all the great things you all learn this summer!</li>
+        <li>I can't wait to help you all learn incredible things about computer science and about yourselves this summer!</li>
       </ul>
     </div>
+    
+    <div>
+      <p id="demo2" onclick="myFunction2()"><i>Click here to see some pictures:</i></p>
+      <p id="pix">
+        <img src="dog.jpg" alt="Bella">My dog, Bella. She's a mutt and very cat-like and I love her.
+        <img src="run.jpg" alt="Running">My friend Anna and I after finishing our first 15K! I'm currently training for a half marathon which I'm really proud of.
+        <img src="nyc.jpg" alt="NYC">This is my favorite spot in New York -- do you know where it is?
+      </p>
     
     <script>
       function myFunction() {
         document.getElementById("list1").style.display = 'block';
+      }    
+      function myFunction2() {
+        document.getElementById("pix").style.display = 'block';
       }
-  </script>
+    </script>
     
   </body>
 </html>
