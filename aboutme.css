@@ -6,8 +6,15 @@ body {
     margin-left: 100px;
 }
 
+header {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-variant: small-caps;
+    font-family: georgia;
+
 h1 {
-    font-family: verdana;
+    font-family: georgia;
     color: white;
     text-align: center;
     font-size: 30px;
@@ -19,7 +26,7 @@ p  {
 }
 
 div {
-    font-family: verdana;
+    font-family: georgia;
     color: black;
     font-size: 20px;
 }
