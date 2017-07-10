@@ -4,6 +4,7 @@ body {
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 100px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
 header {
@@ -11,12 +12,12 @@ header {
     font-size: 35px;
     color: white;
     font-variant: small-caps;
-    font-family: georgia;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-weight: bold;
 }
 
 h1 {
-    font-family: georgia;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     color: white;
     text-align: center;
     font-size: 30px;
@@ -29,7 +30,7 @@ p  {
 }
 
 div {
-    font-family: georgia;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     color: black;
     font-size: 20px;
 }
