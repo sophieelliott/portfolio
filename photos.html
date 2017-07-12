@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="aboutme.css">
+    <title> Photos </title>
+  </head>
+
+  <body>
+    <hr>
+    <header> Sophie Elliott </header>
+    <hr>
+    <h1> <i>Welcome to my portfolio! </i></h1><br>
+    
+    <div id="mySidenav" class="sidenav">
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+     <a href="/home.html">Home</a>
+     <a href="#">Photos</a>
+     <a href="/aboutme.html">About</a>
+    </div>
+
+    <div id="main">
+      <p><i>Click to open</i></p>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    </div>
+    
+    <div>
+      <p id="demo" onclick="myFunction()">Click here to learn some things about me:</p>
+      <ul id="list1">
+        <li>I'm a junior at Washington University in St. Louis studying linguistics, computer science, and Arabic</li>
+        <li>I grew up in New York City and went to Hunter College Elementary and High School</li>
+        <li>I love running, dogs, desserts, card games, and fighting for intersectional equality</li>
+        <li>I can't wait to help you all learn incredible things about computer science and about yourselves this summer!</li>
+      </ul>
+    </div>
+    <br>
+    <div>
+      <p id="demo2" onclick="myFunction2()">Click here to see some pictures:</p>
+      <dl id="pix">
+        <dt><img src="dog.jpg" alt="Bella" style="width:213px;height:213px;"></dt><br>
+          <dd>My dog, Bella. She's a mutt and very cat-like and I love her.</dd><br><br>
+        <dt><img src="run.jpg" alt="Running" style="width:280px;height:378px;"></dt><br>
+          <dd>Me and my friend Anna after finishing our first 15K! I'm currently training for a half marathon which I'm really proud of.</dd><br><br>
+        <dt><img src="nyc.jpg" alt="NYC" style="width:365px;height:250px;"></dt><br>
+          <dd>This is my favorite spot in New York -- do you know where it is?</dd>
+      </ul>
+    </div>
+    
+    <script>
+      function myFunction() {
+        document.getElementById("list1").style.display = 'block';
+      }    
+      function myFunction2() {
+        document.getElementById("pix").style.display = 'block';
+      }
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "lightblue";
+      }
+    </script>
+    
+  </body>
+</html>
