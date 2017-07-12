@@ -86,4 +86,5 @@ div {
     display: block;
     margin: auto;
     width: 50%;
+    float: left;
 }
