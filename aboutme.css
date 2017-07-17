@@ -76,7 +76,7 @@ div {
 }
 
 #list1 {
-    display: block;
+    display: hide;
     margin: auto;
     width: 50%;
 }
